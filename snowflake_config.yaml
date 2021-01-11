@@ -1,0 +1,20 @@
+user:
+password:
+azure_account:
+subject: FLEETOPT
+roles:
+    - ENGINEER
+    - TABLEAUDEV
+envs:
+    - PROD
+    - DEV
+    - QA
+schemas:
+    - PROJECT
+    - INTEGRATE
+warehouse_size: XSMALL
+auto_suspend: 300
+auto_resume: true
+min_cluster_count: 1
+max_cluster_count: 2
+initially_suspended: true
